@@ -30,8 +30,8 @@ set_top example
 open_solution -reset solution1 -flow_target vitis
 
 # Define technology and clock rate
-set_part  {xcvu9p-flga2104-2-i}
-create_clock -period "200MHz"
+set_part  {xa7z020-clg400-1I}
+create_clock -period "100MHz"
 
 # Set variable to select which steps to execute
 set hls_exec 2
