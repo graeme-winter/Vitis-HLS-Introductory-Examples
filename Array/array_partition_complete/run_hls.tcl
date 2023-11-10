@@ -29,7 +29,7 @@ set_top matmul_partition
 # Create a solution
 open_solution -reset solution1 -flow_target vitis
 # Define technology and clock rate
-set_part  {xcvu9p-flga2104-2-i}
+set_part  {xa7z020-clg400-1I}
 create_clock -period 10
 
 # Set variable to select which steps to execute
