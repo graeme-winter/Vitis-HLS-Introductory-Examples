@@ -32,15 +32,15 @@ set_top	dut
 open_solution -reset solution1 -flow_target vitis 
 
 # Define technology and clock rate
-set_part  {xcvu9p-flga2104-2-i}
-create_clock -period "400MHz"
+set_part  {xa7z020-clg400-1I}
+create_clock -period "100MHz"
 
 csim_design
-# Run Synthesis, RTL Simulation, RTL implementation and Exit
+# Run Synthesis, RTL Simulation, RTL implementation
 csynth_design
 cosim_design
 # Generate pcore
-# export_design -format ip_catalog
+export_design -format ip_catalog
 
 exit
 

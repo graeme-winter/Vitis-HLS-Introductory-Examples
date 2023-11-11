@@ -33,7 +33,7 @@ set_part  {xa7z020-clg400-1I}
 create_clock -period 10
 
 # Set variable to select which steps to execute
-set hls_exec 2
+set hls_exec 3
 
 csim_design
 # Set any optimization directives
